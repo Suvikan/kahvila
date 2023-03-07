@@ -10,6 +10,8 @@ export class MyyntiComponent {
   faCoffee = faCoffee;
   @Input('tarjoilijalle') ohje!: { tyo: string, poydanNumero:string, myyntiMaara: string, };
 
+  timeStamp: Date = new Date();
+
   constructor() {}
 
   ngOnInit(): void {}
